@@ -1,7 +1,7 @@
 {
     "keyboard_name": "NEO60",
     "manufacturer":"NEO Studio",
-    "url": "",
+    "url": "https://github.com/lizhenmingdirk/qmk_firmware",
     "maintainer": "NEO Studio",
     "usb": {
         "vid": "0x4E45",
