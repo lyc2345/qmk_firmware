@@ -16,27 +16,5 @@
  */
 #pragma once
 
-/* Mechanical locking support. Use KC_LCAP, KC_LNUM or KC_LSCR instead in keymap */
-#define LOCKING_SUPPORT_ENABLE
-/* Locking resynchronize hack */
-#define LOCKING_RESYNC_ENABLE
-
-/* Define less important options */
-/*
- * Feature disable options
- * These options are also useful to firmware size reduction.
- */
-
-#define MATRIX_UNSELECT_DRIVE_HIGH
-#define CORTEX_ENABLE_WFI_IDLE          FALSE
 /* toggle on just two taps. */
 #define TAPPING_TOGGLE 2
-
-/* Ensure we jump to bootloader if the RESET keycode was pressed */
-#define EARLY_INIT_PERFORM_BOOTLOADER_JUMP TRUE
-
-#define DEBOUNCE 5
-
-#ifndef NOP_FUDGE
-#define NOP_FUDGE 0.4
-#endif
