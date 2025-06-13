@@ -2,32 +2,6 @@
     "keyboard_name": "NEO60",
     "manufacturer": "Neo Studio",
     "maintainer": "lyc2345",
-    "usb": {
-        "vid": "0x4E45",
-        "pid": "0x3630",
-        "device_version": "0.0.1"
-    },
-    "matrix": {
-      "rows": 5,
-      "cols": 15
-    },
-    "matrix_pins": {
-        "cols": ["C14", "C15", "A0", "A1", "A2", "A3", "A4", "B2", "B10", "B11", "B12", "B13", "B14", "B15", "A8" ],
-        "rows": ["A6", "A7", "B0", "B1", "B9"]
-    },
-    "diode_direction": "COL2ROW",
-    "features": {
-        "bootmagic": true,
-        "extrakey": true,
-        "mousekey": true,
-        "nkro": true
-    },
-    "indicators": {
-        "caps_lock": "C13",
-        "on_state": 1
-    },
-    "processor": "STM32F072",
-    "bootloader": "stm32-dfu",
     "layouts": {
         "LAYOUT_60_ansi_tsangan_split_bs_rshift": {
             "layout": [
